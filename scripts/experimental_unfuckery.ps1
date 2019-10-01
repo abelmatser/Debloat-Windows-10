@@ -3,6 +3,10 @@
 # of your system.  It should not be used unless you want to test out a few
 # things. It is named `experimental_unfuckery.ps1` for a reason.
 
+Write-Output "You do not want to run this"
+exit
+Write-Output "You do not want to run this"
+
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\take-own.psm1
 
 Write-Output "Elevating priviledges for this process"

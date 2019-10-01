@@ -2,6 +2,10 @@
 # This script disables unwanted Windows services. If you do not want to disable
 # certain services comment out the corresponding lines below.
 
+Write-Output "You do not want to run this"
+exit
+Write-Output "You do not want to run this"
+
 $services = @(
     "diagnosticshub.standardcollector.service" # Microsoft (R) Diagnostics Hub Standard Collector Service
     "DiagTrack"                                # Diagnostics Tracking Service

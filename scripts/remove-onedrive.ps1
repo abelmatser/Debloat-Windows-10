@@ -1,6 +1,10 @@
 #   Description:
 # This script will remove and disable OneDrive integration.
 
+Write-Output "You do not want to run this"
+exit
+Write-Output "You do not want to run this"
+
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\force-mkdir.psm1
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\take-own.psm1
 

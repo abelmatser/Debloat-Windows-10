@@ -2,6 +2,11 @@
 # This script optimizes Windows updates by disabling automatic download and
 # seeding updates to other computers.
 #
+
+Write-Output "You do not want to run this"
+exit
+Write-Output "You do not want to run this"
+
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\force-mkdir.psm1
 
 Write-Output "Disable automatic download and installation of Windows updates"
@@ -21,7 +26,7 @@ Set-ItemProperty "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization
 $objSID = New-Object System.Security.Principal.SecurityIdentifier "S-1-1-0"
 $EveryOne = $objSID.Translate( [System.Security.Principal.NTAccount]).Value
 
-echo "Disable 'Updates are available' message"
+echo"Disable 'Updates are available' message"
 
 Write-Output "Disable 'Updates are available' message"
 
