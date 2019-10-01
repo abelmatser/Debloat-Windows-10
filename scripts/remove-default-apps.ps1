@@ -19,7 +19,7 @@ $apps = @(
     "Microsoft.BingTranslator"
     "Microsoft.BingWeather"
     #"Microsoft.FreshPaint"
-    "Microsoft.GamingServices"
+    # "Microsoft.GamingServices"
     # "Microsoft.Microsoft3DViewer"
     "Microsoft.MicrosoftOfficeHub"
     "Microsoft.MicrosoftPowerBIForWindows"
@@ -41,7 +41,7 @@ $apps = @(
     # "Microsoft.WindowsMaps"
     # "Microsoft.WindowsPhone"
     # "Microsoft.WindowsSoundRecorder"
-    #"Microsoft.WindowsStore"   # can't be re-installed
+    ###"Microsoft.WindowsStore"   # can't be re-installed
     # "Microsoft.Xbox.TCUI"
     # "Microsoft.XboxApp"
     # "Microsoft.XboxGameOverlay"
